@@ -1,0 +1,10 @@
+.containerFlex {
+  box-sizing: border-box;
+  display: flex;
+}
+
+@media screen and (min-width: 550px) {
+  .containerFlex {
+    width: 50%;
+  }
+}

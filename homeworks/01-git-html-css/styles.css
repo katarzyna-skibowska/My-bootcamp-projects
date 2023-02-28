@@ -1,0 +1,119 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navigation styling */
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: dimgray;
+  display: flex;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.menu li:hover {
+  background-color: whitesmoke;
+}
+
+nav li {
+  flex: 1 1 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu li:nth-child(2) {
+  font-weight: bold;
+}
+
+.menu li:nth-child(2) a,
+.menu li:nth-child(4) a {
+  color: chartreuse;
+}
+
+.menu li:nth-child(1),
+.menu li:nth-child(3) a {
+  color: black;
+}
+
+/* main content styling */
+
+/* section1 - O nas */
+
+.name {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* section2 - Produkty */
+
+.products li:nth-child(2) {
+  color: #20c831;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/* section3  - Kontakt*/
+
+form {
+  width: 600px;
+  height: auto;
+  padding: 0;
+  border: 2px solid chartreuse;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  width: 500px;
+  margin: 10px;
+}
+
+textarea {
+  height: 150px;
+}
+
+#send {
+  background-color: rgb(16, 16, 86);
+  color: white;
+}
+
+#send:hover {
+  background-color: rgb(18, 18, 151);
+}
+
+/*footer styling */
+
+footer {
+  background-color: #123123;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.github {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+.button {
+  background-color: hsl(158, 36%, 37%);
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.buttonIcon {
+  display: flex;
+  padding-right: 10px;
+}
